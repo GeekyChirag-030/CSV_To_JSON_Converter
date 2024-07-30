@@ -18,16 +18,15 @@
 
 ### Example
 Given a CSV file with the following content:
-----------------
-name,age
-Alice,30
-Bob,25
----------------
+_____________________________________
+#### name,age
+#### Alice,30
+#### Bob,25
+___________________________________
 
 The output JSON will be:
 
-[
-    {"name": "Alice", "age": 30},
+[  {"name": "Alice", "age": 30},
     {"name": "Bob", "age": 25}
 ]
 
